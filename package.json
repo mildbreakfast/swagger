@@ -4,6 +4,7 @@
   "description": "Nest - modern, fast, powerful node.js web framework (@swagger)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "tsc -p tsconfig.json"
   },
@@ -12,5 +13,11 @@
     "@nestjs/core": "^4.*",
     "reflect-metadata": "0.1.10",
     "lodash": "^4.17.4"
+  },
+  "dependencies": {
+    "@nestjs/common": "^4.1.1",
+    "@nestjs/core": "^4.1.3",
+    "lodash": "^4.17.4",
+    "reflect-metadata": "^0.1.10"
   }
 }
